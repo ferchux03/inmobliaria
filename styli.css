@@ -1,0 +1,144 @@
+.lujo img {
+    width:100%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.lujo {
+ width: 40%;   
+ height: 40%;
+}
+
+/* 
+    display: flex;
+    flex-direction: column;
+*/
+
+.normal img{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+.normal{
+    width:40%;
+    height:40%;
+    /* justify-content -> x */
+    /* align-items -> y */
+}
+
+.rustico img{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.rustico
+{
+    width: 40%;
+    height: 40%;
+}
+.vip img{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+.vip{
+    width: 40%;
+    height: 40%;
+    
+}
+.incono{width: 150px;
+    position: relative;
+    bottom:100px;
+}
+
+header{
+    background-color: #2f3042;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 30px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    
+}
+
+nav a {
+    text-transform: uppercase;
+}
+
+
+main{
+    background-color: antiquewhite;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+body{
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    width:100vw ;
+    height: 100vh;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/*
+@media (max-width: 500px) {
+    
+}
+*/
+@media (max-width: 500px) {
+body{
+    flex-direction: column;
+}
+    
+header {
+    width: 100%; /* 20% */
+    min-height: 100px;
+    display: flex;
+    font-size: 15px;
+}
+
+main{
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    /* flex-wrap: nowrap; */
+}
+
+.incono {
+    display: none;
+}
+
+nav  {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+nav a {
+    font-size: 10px; 
+}
+
+    .tel, .mail {
+    display: none;
+    }
+}
+ 
